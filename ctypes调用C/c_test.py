@@ -1,5 +1,5 @@
 from ctypes import *
-solib = cdll.LoadLibrary("test.so")
+solib = cdll.LoadLibrary("test.dll")
 arr = (c_int * 3)(1,2,3)
 for i in range(0, len(arr)):
     print(arr[i],end=" ")

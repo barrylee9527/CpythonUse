@@ -1,6 +1,7 @@
 .vscode
-hello.egg-info
-launch.json
-settings.json
+*.egg-info
 *.so
 *.dll
+dist
+build
+.idea
